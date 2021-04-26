@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+    margin: 0;
+}
+
+#header {
+    background-image: url('images/header.jpg');
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    text-align: center;
+    color: #ff0054;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+
+    width: 60%;
+    border: 6px solid #ff0054;
+}
+
+#quoteContainer {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newQuote {
+    padding: 1rem 2rem;
+    background-color: #FAD0E0;
+    color: #ff0054;
+    border: none;
+    border-radius: 10%;
+
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+#newQuote:hover {
+    cursor: pointer;
+}
+
+#quote {
+    margin: 3rem 0;
+    padding: 1rem;
+    border: 1px dotted #ff0054;
+    width: 50%;
+    text-align: center;
+}
+
+#author {
+    font-weight: bold;
+}
+
+#quoteText {
+    font-style: italic;
+}
+
